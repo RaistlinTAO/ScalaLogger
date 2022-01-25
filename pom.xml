@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.raistlintao</groupId>
+    <artifactId>Logger</artifactId>
+    <!-- for Github Package
+    <artifactId>Logger</artifactId>
+    -->
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Logger</name>
+    <description>Just a lightweight logger for scala</description>
+    <url>https://github.com/RaistlinTAO/ScalaLogger</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Raistlin TAO</name>
+            <email>demonvk@gmail.com</email>
+            <organization>Github</organization>
+            <organizationUrl>https://github.com/RaistlinTAO</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:RaistlinTAO/ScalaLogger.git</connection>
+        <developerConnection>scm:git:ssh://github.com:RaistlinTAO/ScalaLogger.git</developerConnection>
+        <url>https://github.com/RaistlinTAO/ScalaLogger/tree/main</url>
+    </scm>
+
+    <dependencies>
+
+    </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/raistlintao/ScalaLogger</url>
+        </repository>
+    </distributionManagement>
+</project>
