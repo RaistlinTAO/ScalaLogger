@@ -1,6 +1,6 @@
-# Spark Model Helper
+# Scala Logger
 
-A helper that extracting useful information from trained Spark Model
+Just a lightweight logger with colour and time support for Scala 3
 
 ![License](https://img.shields.io/github/license/RaistlinTAO/ScalaLogger)
 
